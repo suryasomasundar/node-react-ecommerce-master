@@ -32,9 +32,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(`${__dirname}/../frontend/build/index.html`));
 });
 
-//app.listen(config.PORT, () => {
-  //console.log('Server started at http://localhost:5000');
-    var server = app.listen(process.env.PORT || 5000, function () {
-    var port = server.address().port;
-    console.log("Express is working on port " + port);
-  });
+app.listen(config.PORT, () => {
+  console.log('Server started at http://localhost:5000');
+});

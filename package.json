@@ -1,6 +1,7 @@
 {
-  "name": "gmonshopping",
+  "name": "flybuy",
   "version": "1.0.0",
+  "description": "Demo : https://littledolly.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.702.0",
@@ -30,9 +31,16 @@
     "build": "rm -rf dist && babel backend -d dist",
     "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.heroku.com/littledolly.git"
+  },
   "author": "",
   "license": "ISC",
-
+  "bugs": {
+    "url": "https://github.com/suryasomasundar/node-react-ecommerce-master/issues"
+  },
+  "homepage": "https://github.com/suryasomasundar/node-react-ecommerce-master/blob/master/README.md",
   "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"

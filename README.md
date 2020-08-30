@@ -4,8 +4,8 @@
 ### 1. Clone repo
 
 ```
-$ git clone https://github.com/suryasomasundar/gmon-shophandle-core.git
-$ cd node-react-ecommerce
+$ git clone https://github.com/suryasomasundar/node-react-ecommerce-master.git
+$ cd node-react-ecommerce-master
 ```
 
 ### 2. Install MongoDB

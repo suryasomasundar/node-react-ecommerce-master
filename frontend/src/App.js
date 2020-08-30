@@ -31,7 +31,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <Link to="/">littleDolly</Link>
+            <Link to="/">FlyBuy</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
